@@ -84,7 +84,7 @@ h3{
 }
 .overlap {
     position: absolute;
-    max-width: 75%;
+    max-width: 100%;
     height: 75px;
     background-color: rgb(59, 59, 59);
     left: 50%; 
@@ -187,7 +187,7 @@ h5{
 }
 .overlap2{
     position: relative;
-    max-width: 75%;
+    max-width: 100%;
     height: 150px;
     /* background-color: rgb(97, 97, 97); */
     left: 50%; 
@@ -207,4 +207,7 @@ h5{
     height: 150px;
     padding: 20px; 
     
+}
+@media (orientation: landscape){
+
 }
